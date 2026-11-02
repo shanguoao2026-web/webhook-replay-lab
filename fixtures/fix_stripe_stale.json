@@ -1,0 +1,14 @@
+{
+  "id": "fix_stripe_stale",
+  "timestamp": "2020-09-13T12:26:40.000Z",
+  "method": "POST",
+  "path": "/hooks/stripe",
+  "query": "",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "stripe-signature": "t=1600000000,v1=07965a976213cec21094121b140cf70905ae6860b6a5bd2efb217bef49558db0"
+  },
+  "rawBody": "{\"id\":\"evt_fixture_stripe\",\"type\":\"checkout.session.completed\",\"data\":{\"object\":{\"id\":\"cs_test_1\",\"amount_total\":2000,\"currency\":\"usd\"}}}",
+  "contentType": "application/json; charset=utf-8",
+  "remoteAddr": "127.0.0.1"
+}

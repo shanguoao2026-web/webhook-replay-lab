@@ -1,0 +1,14 @@
+{
+  "id": "fix_telegram",
+  "timestamp": "2024-06-03T00:00:00.000Z",
+  "method": "POST",
+  "path": "/hooks/telegram",
+  "query": "",
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "TelegramBot"
+  },
+  "rawBody": "{\"update_id\":10000,\"message\":{\"message_id\":1,\"text\":\"hello from telegram\",\"chat\":{\"id\":42,\"type\":\"private\"}}}",
+  "contentType": "application/json",
+  "remoteAddr": "127.0.0.1"
+}

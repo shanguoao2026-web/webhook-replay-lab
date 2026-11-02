@@ -1,0 +1,14 @@
+{
+  "id": "fix_stripe_rotation",
+  "timestamp": "2024-04-01T00:00:00.000Z",
+  "method": "POST",
+  "path": "/hooks/stripe",
+  "query": "",
+  "headers": {
+    "content-type": "application/json",
+    "stripe-signature": "t=1700000000,v1=65e4cca822c325fd71a6b37095813cfe956b841028e17a5b38c581e518b018ca,v1=4883b1d94f53fe369ed2b0685a42fdc1de540fea6b2d4ac3f9b6bf9e451c9b75"
+  },
+  "rawBody": "{\"id\":\"evt_fixture_rotation\",\"type\":\"invoice.paid\"}",
+  "contentType": "application/json",
+  "remoteAddr": "127.0.0.1"
+}

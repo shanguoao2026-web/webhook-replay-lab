@@ -1,0 +1,14 @@
+{
+  "id": "fix_hmac_valid",
+  "timestamp": "2024-05-01T00:00:00.000Z",
+  "method": "POST",
+  "path": "/hooks/hubspot",
+  "query": "",
+  "headers": {
+    "content-type": "application/json",
+    "x-hub-signature-256": "sha256=abc3c2a94ac706d82e25dc461de7be651ad56cdca41e00fadeeddb9cc68f8811"
+  },
+  "rawBody": "{\"event\":\"contact.creation\",\"vid\":101,\"properties\":{\"email\":\"ada@example.com\"}}",
+  "contentType": "application/json",
+  "remoteAddr": "127.0.0.1"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fix_order_a",
+  "timestamp": "2024-06-01T00:00:00.000Z",
+  "method": "POST",
+  "path": "/hooks/shop",
+  "query": "source=test",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "rawBody": "{\"order\":\"o_100\",\"status\":\"created\",\"amount\":2000,\"items\":[{\"sku\":\"widget\",\"qty\":1}]}",
+  "contentType": "application/json",
+  "remoteAddr": "127.0.0.1"
+}

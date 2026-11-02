@@ -1,0 +1,42 @@
+{
+  "name": "webhook-replay-lab",
+  "version": "0.1.0",
+  "description": "Record, inspect, verify, diff, and replay webhooks on your machine.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "webhook-replay-lab": "dist/cli.js"
+  },
+  "main": "./dist/cli.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/cli.js",
+    "pretest": "npm run build",
+    "test": "vitest run",
+    "start": "node dist/cli.js",
+    "serve": "node dist/cli.js serve --ui"
+  },
+  "keywords": [
+    "webhook",
+    "replay",
+    "stripe",
+    "hmac",
+    "cli"
+  ],
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
